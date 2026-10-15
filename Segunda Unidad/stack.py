@@ -9,6 +9,7 @@ print("Historial cargado: ",historial_navegacion)
 pagina_actual = historial_navegacion[-1]
 print("Pagina actual en pantalla:" ,pagina_actual)
 #OPERACION DESAPILAR (POP)
+pagina_cerrada = historial_navegacion.pop()
 print("aliendo de: " ,pagina_cerrada)
 print("historial despues de presionar 'atras' ",historial_navegacion)
 
