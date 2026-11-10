@@ -26,7 +26,7 @@ class ListaEnlazada:
         while actual is not None:
             elementos.append(str(actual.dato))
             actual=actual.siguiente
-        print(" ... ".join(elementos)+" --None")
+        print("... ".join(elementos)+" --None")
 
 #Uso del programa
 lista=ListaEnlazada()
